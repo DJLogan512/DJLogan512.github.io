@@ -9,7 +9,7 @@ ul li{
     width: 191.5px;
     height: 40px;
     background-color: black;
-    opacity: 0.8;
+    opacity: .99;
     line-height: 40px;
     text-align: center;
     font-size: 18px;
@@ -30,7 +30,7 @@ ul li:hover ul li{
     display: block;
 }
 body {
-    background: url('https://lh3.googleusercontent.com/proxy/WT_dNMpNGyz-N6gAHMIUzdajMMBYCQuluWDX6xSGjlalFOADzWnOPItjlpvoxKO2KrzK0ZQK9rJwav5YHoeXCarwhe99Vi7wc6xJjKZjJ5YN1gY1TxNSS0U8YpDyWiQSTzYmXfRqPcXq7CcqkATzkLQ5GLuOY195rp0dRvCbtDdIwb9G-8QFeDKrQZmVEgiyNpMnZtVvU5RSibLGF9xWgq1oWIanskFaHOkKF6ucDX4VN6nXUTb_W36eCA-Olz09V5iUSpyN643j4lzZ8j6-_ih4zA');
+    background: url('https://upload.wikimedia.org/wikipedia/en/b/bb/Graduated_Blue_Background.png');
     background-size: cover;
     font-family: Arial;
 }       
@@ -62,23 +62,33 @@ body {
 }
 .column_left_2{
     float: left;
-    width: 50%;
-    padding: 0px;
+    width: 46%;
+    padding: 20px;
 }
 .column_right_2{
     float: right;
-    width: 50%;
-    padding: 0px;
+    width: 46%;
+    padding: 20px;
 }
 .column_left_3{
     float: left;
-    width: 50%;
-    padding: 20px;
+    width: 47%;
+    padding: 10px;
 }
 .column_right_3{
     float: right;
-    width: 50%;
-    padding: 20px;
+    width: 47%;
+    padding: 10px;
+}
+.column_left_4{
+    float: left;
+    width: 47%;
+    padding: 10px;
+}
+.column_right_4{
+    float: right;
+    width: 47%;
+    padding: 10px;
 }
 .blue {
     color: rgb(3, 161, 252)
@@ -88,13 +98,20 @@ body {
 }
 .red {
     color: rgb(252, 3, 3)
-}
-body {
-    background-color:seashell
-}  
+} 
 .cherry_pink {
     color: rgb(252, 15, 216);
 }
 h1 {
     color: rgb(45, 15, 194);
+}
+.padding1 {
+    padding: 100px
+}
+.vertical_line {
+    border-left: 6px solid blue;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
 }
